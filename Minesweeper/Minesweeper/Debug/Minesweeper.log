@@ -1,0 +1,26 @@
+﻿Build started 2016-02-02 20:45:46.
+     1>Project "C:\Users\Dorota\Downloads\Minesweeperuberdobrawersja3\Minesweeperuberdobrawersja\Minesweeper\Minesweeper\Minesweeper.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MetaGen.targets(91,5): warning : Required file "C:\USERS\KAROLINA\DESKTOP\MINESWEEPERUBERDOBRAWERSJA\MINESWEEPER\DEBUG\CUSTOMPICTUREBOX.DLL" is missing.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FUC:\Users\Dorota\Downloads\Minesweeperuberdobrawersja3\Minesweeperuberdobrawersja\Minesweeper\Debug\CustomPictureBox.dll /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MainForm.cpp przegrana.cpp wygrana.cpp
+         MainForm.cpp
+     1>c:\users\dorota\downloads\minesweeperuberdobrawersja3\minesweeperuberdobrawersja\minesweeper\minesweeper\tab.h(38): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\dorota\downloads\minesweeperuberdobrawersja3\minesweeperuberdobrawersja\minesweeper\minesweeper\Functions.h(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         przegrana.cpp
+         wygrana.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fp"Debug\Minesweeper.pch" /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /analyze- /errorReport:prompt "C:\Users\Dorota\AppData\Local\Temp\.NETFramework,Version=v4.5.2.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+     1>C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018: The "GenerateResource" task failed unexpectedly.
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018: System.NullReferenceException: Object reference not set to an instance of an object.
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.Tasks.ResGenDependencies.GetResXFileInfo(String resxFile)
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.Tasks.GenerateResource.ShouldRebuildResgenOutputFile(String sourceFilePath, String outputFilePath)
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.Tasks.GenerateResource.GetResourcesToProcess(List`1& inputsToProcess, List`1& outputsToProcess, List`1& cachedOutputFiles)
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.Tasks.GenerateResource.Execute()
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
+C:\Program Files\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2718,5): error MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()
+     1>Done Building Project "C:\Users\Dorota\Downloads\Minesweeperuberdobrawersja3\Minesweeperuberdobrawersja\Minesweeper\Minesweeper\Minesweeper.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:01.94
